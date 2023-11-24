@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: sitka banner ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+
+header{
+    background: rgb(0,0,0);
+    background: linear-gradient(161deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 67%);
+
+    color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    /* position: fixed; تخلي القايمه ثابته */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    /* الفرق بين العناصر الي بينهم */
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform:capitalize ;
+    font-size: 1.8em;
+    font-weight: 700;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+} 
+.navigation a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(0, 0, 0);
+}
+section{
+    padding: 100px 200px ;
+}
+.main{
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Screenshot\ 2023-11-25\ 014055.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   
+    background-size: cover;
+    background-position:center ;
+    
+}
+.main h2{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.main h2 span{
+    
+    display: inline-block;
+    margin-top: 10px;
+    color:rgb(255, 255, 255);
+    font-size:3em ;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+    transition: 0.7s ease;
+   
+}
+.main h2 span:hover{
+    transform: scale(1.1);
+
+}
+.main h3{
+color: rgb(255, 255, 255);
+font-size: 2em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.main-btn{
+    color: aliceblue;
+    background-color: rgb(42, 42, 184);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9367cm  2.1875em;
+    letter-spacing: 1px;
+    border-radius:  15px; ;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: aliceblue;
+    font-size: 1.7em ;
+    padding-right:10px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(42, 42, 184);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 15.25em;
+    box-shadow: 0 5px 25px rgba(194, 70, 70, 0.15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: rgb(42, 42, 184);
+    font-size: 7em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(42, 42, 184);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.icon-Skills{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 25px rgba(194, 70, 70, 0.15);
+    color:  rgb(52, 52, 121);
+    box-sizing: content-box;
+    font-size: 4em;
+    text-align: center;
+    background-size: cover;
+    background-position:center ;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+    
+}
+.icon-Skills:hover{
+    transform: scale(1.1);
+
+}
+.p-1{
+    color: rgb(41, 5, 5);
+    border-radius: 35px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+    box-shadow: 0 5px 25px rgba(177, 72, 72, 0.15);
+    font-size: 2em;
+    text-align: center;
+
+
+}
+.p-1:hover{
+    transform: scale(1.1);
+
+}
+.p-2{
+    text-align: center;
+}

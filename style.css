@@ -50,7 +50,7 @@ section{
     padding: 100px 200px ;
 }
 .main{
-    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Screenshot\ 2023-11-25\ 014055.png);
+    
     background-repeat: repeat-x;
     width: 100%;
     min-height: 100vh;

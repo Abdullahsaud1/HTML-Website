@@ -9,10 +9,10 @@
 }
 
 header{
-    background: #556b2f;
-    background: linear-gradient(161deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 67%);
+    background: rgb(245, 245, 245);
+    background:rgb(42, 42, 184);
 
-    color: rgb(255, 255, 255);
+    color: rgb(209, 17, 17);
     width: 100%;
     position: fixed;
     /* position: fixed; تخلي القايمه ثابته */
@@ -23,9 +23,10 @@ header{
     align-items: center;
     padding: 10px 200px;
 }
+
 .logo{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
     text-transform:capitalize ;
     font-size: 1.8em;
     font-weight: 700;
@@ -44,13 +45,13 @@ nav ul li {
     padding-left: 30px;
 }
 .navigation a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(175, 50, 50);
 }
 section{
     padding: 100px 200px ;
 }
 .main{
-    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Screenshot\ 2023-11-25\ 014055.png);
+   
     background-repeat: repeat-x;
     width: 100%;
     min-height: 100vh;
@@ -62,7 +63,7 @@ section{
     
 }
 .main h2{
-    color: rgb(255, 255, 255);
+    color: rgb(42, 42, 184);
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -71,7 +72,7 @@ section{
     
     display: inline-block;
     margin-top: 10px;
-    color:rgb(255, 255, 255);
+    color:rgb(42, 42, 184);
     font-size:3em ;
     font-weight: 600;
     letter-spacing: 1px;
@@ -84,7 +85,7 @@ section{
 
 }
 .main h3{
-color: rgb(255, 255, 255);
+color: rgb(42, 42, 184);
 font-size: 2em;
 font-weight: 700;
 letter-spacing: 1px;
@@ -110,7 +111,7 @@ margin-bottom: 30px;
     transform: scale(1.1);
 }
 .social-icons a{
-    color: aliceblue;
+    color: rgb(0, 48, 90);
     font-size: 1.7em ;
     padding-right:10px;
 
